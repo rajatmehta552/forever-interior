@@ -1,0 +1,46 @@
+.sec-title h2 {
+    color: #252525;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.sec-title span.decor {
+    background: #d5ac63 none repeat scroll 0 0;
+    height: 2px;
+    width: 78px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.sec-title span.decor:before {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    background: #d5ac63;
+    border-radius: 50%;
+    content: "";
+}
+
+.service-dtl-first-image {
+    margin-top: 10%;
+}
+
+.service-dtl-first-image img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    height: 250px;
+    width: 246px;
+    box-sizing: border-box;
+    box-shadow: -8px 11px 8px -3px #ddd;
+}
+
+.welcome-area .gallery {
+    position: relative;
+    margin-top: 5px;
+}
